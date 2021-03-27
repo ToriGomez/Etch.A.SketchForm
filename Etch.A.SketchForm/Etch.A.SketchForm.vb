@@ -2,10 +2,9 @@
 'RCET0265
 'Spring 2021
 'Etch A Sketch
-' 
+'https://github.com/ToriGomez/Etch.A.SketchForm.git
 Option Explicit On
 Option Strict On
-
 Imports System.Math
 Imports System.Threading.Thread
 Public Class EtchASketchForm
