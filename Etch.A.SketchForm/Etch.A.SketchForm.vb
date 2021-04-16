@@ -124,7 +124,7 @@ Public Class EtchASketchForm
     End Sub
     'Shakes and clears the window display
     Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click, ClearToolStripMenuItem.Click
-        ShakeSound()
+        'ShakeSound()
         Shake()
         DisplayPictureBox.Refresh()
     End Sub
@@ -133,11 +133,11 @@ Public Class EtchASketchForm
         Me.Close()
     End Sub
     'Shake sound effect resource
-    Sub ShakeSound()
-        'https://freesound.org/
-        '    'play shake sound from project resources
-        My.Computer.Audio.Play(My.Resources.shaker, AudioPlayMode.Background)
-    End Sub
+    'Sub ShakeSound()
+    '    'https://freesound.org/
+    '    '    'play shake sound from project resources
+    '    My.Computer.Audio.Play(My.Resources.shaker, AudioPlayMode.Background)
+    'End Sub
     'Moves/shakes the display window
     Sub Shake()
         Dim moveAmount = 50
